@@ -61,7 +61,7 @@ import random;random.seed(0)
 if args.dataset==1:
     #seqRootRGB = '../3d-fcn/data/i-LIDS-VID/i-LIDS-VID/sequences/'
     seqRootRGB = 'data/i-LIDS-VID/sequences/'
-    seqRootOF = '../3d-fcn/data/i-LIDS-VID-OF-HVP/sequences/'
+    seqRootOF = 'data/i-LIDS-VID-OF-HVP/sequences/'
 else:
     seqRootRGB = '../3d-fcn/data/PRID2011/multi_shot/'
     seqRootOF = './3d-fcn/data/PRID2011-OF-HVP/multi_shot/'
